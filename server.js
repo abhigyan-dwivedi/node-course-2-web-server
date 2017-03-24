@@ -4,8 +4,6 @@ const fs=require('fs')
 
 // const port=process.env.PORT;
 
-
-
 app=express();
 
 app.set('port', (process.env.PORT || 5000));
@@ -39,7 +37,7 @@ app.use(express.static(__dirname+'/public' ));//Built in Middileware
 
 
 hbs.registerHelper('getCurrentYear',()=>{
-  return new Date().getFullYear()
+  return newDate().getMonth()+'/'+new Date().getFullYear()
 });
 
 hbs.registerHelper('screamIt',(text)=>{
