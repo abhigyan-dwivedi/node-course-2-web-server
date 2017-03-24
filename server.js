@@ -37,7 +37,7 @@ app.use(express.static(__dirname+'/public' ));//Built in Middileware
 
 
 hbs.registerHelper('getCurrentYear',()=>{
-  return newDate().getMonth()+'/'+new Date().getFullYear()
+  return new Date().getMonth()+'/'+new Date().getFullYear()
 });
 
 hbs.registerHelper('screamIt',(text)=>{
