@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
     , "start": "node server.js"
   }
-  , "author": ""
+  , "author": "Abhigyan"
   , "license": "ISC"
   , "devDependencies": {
     "express": "^4.15.2"
