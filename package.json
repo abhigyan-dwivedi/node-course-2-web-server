@@ -13,7 +13,7 @@
   }
   , "author": "Abhigyan"
   , "license": "ISC"
-  , "devDependencies": {
+  , "dependencies": {
     "express": "^4.15.2"
     , "hbs": "^4.0.1"
   }
