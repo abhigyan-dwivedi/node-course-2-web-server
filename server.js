@@ -57,6 +57,7 @@ app.get('/about',(req,res)=>{
     //res.send('About Page');
     res.render('about.hbs',{
       pageTitle:'About Page Dynamic',
+      description:'rohini I still miss u.I am a shameless jerk'
       });
 });
 
